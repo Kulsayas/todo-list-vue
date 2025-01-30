@@ -12,7 +12,7 @@ const router = createRouter({
     },
     {
       path: "/todos/:id/edit",
-      name: "edit-to",
+      name: "todo-edit",
       component: EditView,
     },
   ],
